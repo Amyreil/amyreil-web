@@ -1,0 +1,240 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Page not found — Amyreil Technologies</title>
+    <meta
+      name="description"
+      content="The page you were looking for does not exist. Head back to Amyreil Technologies."
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#071019" />
+    <link rel="icon" type="image/svg+xml" href="assets/brand/favicon.svg" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Instrument+Sans:ital,wght@0,400..700;1,400..700&family=Caveat:wght@500;600&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      :root {
+        --ink: #071019;
+        --blue: #0359fc;
+        --blue-hover: #0246d0;
+        --font-sans: "Instrument Sans", "Helvetica Neue", Arial, sans-serif;
+        --font-hand: "Caveat", "Segoe Script", cursive;
+      }
+      * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+      }
+      html,
+      body {
+        height: 100%;
+      }
+      body {
+        font-family: var(--font-sans);
+        background: var(--ink);
+        color: #fff;
+        display: flex;
+        flex-direction: column;
+        overflow-x: clip;
+        -webkit-font-smoothing: antialiased;
+      }
+      a {
+        color: inherit;
+        text-decoration: none;
+      }
+      :focus-visible {
+        outline: 2px solid #3d86ff;
+        outline-offset: 3px;
+      }
+
+      header {
+        position: relative;
+        z-index: 2;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 20px;
+        padding: 20px clamp(20px, 4vw, 48px);
+      }
+      header img {
+        width: 112px;
+        height: auto;
+        display: block;
+      }
+      .home-link {
+        font-size: 0.9375rem;
+        color: rgba(255, 255, 255, 0.7);
+        text-decoration: underline;
+        text-decoration-thickness: 1px;
+        text-underline-offset: 5px;
+        text-decoration-color: rgba(255, 255, 255, 0.3);
+      }
+      .home-link:hover {
+        color: #fff;
+        text-decoration-color: #fff;
+      }
+
+      main {
+        position: relative;
+        flex: 1;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        padding: 40px 24px 80px;
+        isolation: isolate;
+        overflow: hidden;
+      }
+      .bg {
+        position: absolute;
+        inset: 0;
+        z-index: -2;
+        background: url("assets/images/hero-figure-live.jpg") center 56% / cover
+          no-repeat;
+      }
+      .bg::after {
+        content: "";
+        position: absolute;
+        inset: 0;
+        background: linear-gradient(
+          180deg,
+          rgba(7, 16, 25, 0.82),
+          rgba(7, 16, 25, 0.52) 46%,
+          var(--ink) 100%
+        );
+      }
+      .inner {
+        max-width: 640px;
+      }
+      .code {
+        font-size: clamp(6rem, 18vw, 12rem);
+        font-weight: 600;
+        line-height: 0.8;
+        letter-spacing: -0.06em;
+        color: #fff;
+      }
+      h1 {
+        font-size: clamp(1.75rem, 3.6vw, 2.75rem);
+        font-weight: 500;
+        letter-spacing: -0.035em;
+        line-height: 1.1;
+        margin-top: 26px;
+      }
+      .hand {
+        font-family: var(--font-hand);
+        font-weight: 600;
+        font-size: 1.15em;
+        line-height: 0.8;
+        color: var(--blue-hover);
+        display: inline-block;
+        transform: translateY(0.04em) rotate(-2deg);
+      }
+      p {
+        color: rgba(255, 255, 255, 0.66);
+        font-size: 1.0625rem;
+        line-height: 1.6;
+        max-width: 44ch;
+        margin: 16px auto 0;
+      }
+      .actions {
+        margin-top: 32px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 24px;
+        flex-wrap: wrap;
+      }
+      .btn {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        height: 50px;
+        padding: 0 28px;
+        border-radius: 999px;
+        background: var(--blue);
+        color: #fff;
+        font-size: 0.9375rem;
+        font-weight: 500;
+        transition:
+          background 0.22s ease,
+          transform 0.18s ease;
+      }
+      .btn:hover {
+        background: var(--blue-hover);
+      }
+      .btn:active {
+        transform: scale(0.975);
+      }
+      .mail {
+        font-size: 0.9375rem;
+        color: rgba(255, 255, 255, 0.82);
+        text-decoration: underline;
+        text-underline-offset: 6px;
+        text-decoration-color: rgba(255, 255, 255, 0.3);
+      }
+      .mail:hover {
+        color: #fff;
+        text-decoration-color: #fff;
+      }
+
+      footer {
+        position: relative;
+        z-index: 2;
+        padding: 0 clamp(20px, 4vw, 48px) 24px;
+        font-size: 0.8125rem;
+        color: rgba(255, 255, 255, 0.42);
+      }
+      @media (max-width: 560px) {
+        header {
+          padding: 16px 20px;
+        }
+        header img {
+          width: 96px;
+        }
+        main {
+          padding-bottom: 56px;
+        }
+        footer {
+          padding-bottom: 20px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <a href="index.html" aria-label="Amyreil Technologies home">
+        <img
+          src="assets/brand/amyreil-logo-white.svg"
+          alt="Amyreil Technologies"
+          width="112"
+          height="38"
+        />
+      </a>
+      <a class="home-link" href="index.html">Back to home</a>
+    </header>
+
+    <main>
+      <div class="bg" aria-hidden="true"></div>
+      <div class="inner">
+        <div class="code">404</div>
+        <h1>This page isn't <span class="hand">here</span>.</h1>
+        <p>
+          The link may be old, or the page may have moved. The work, the
+          approach and the contact form are all still on the home page.
+        </p>
+        <div class="actions">
+          <a class="btn" href="index.html">Back to home</a>
+          <a class="mail" href="mailto:contact@amyreil.online"
+            >contact@amyreil.online</a
+          >
+        </div>
+      </div>
+    </main>
+
+    <footer>© 2026 Amyreil Technologies</footer>
+  </body>
+</html>

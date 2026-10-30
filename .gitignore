@@ -1,0 +1,8 @@
+node_modules/
+.DS_Store
+Thumbs.db
+*.log
+.vercel
+
+# Internal content notes; keep them out of the public repo.
+CONTENT-ASSUMPTIONS.md
