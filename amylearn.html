@@ -2,33 +2,50 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <title>
-      AmyLearn — Academic platform for colleges | Amyreil Technologies
-    </title>
+    <title>AmyLearn — Academic platform for colleges | Amyreil</title>
     <meta
       name="description"
       content="AmyLearn is a multi-tenant academic platform for attendance, examinations, learning, library and fee records. In beta, with a live demo on request."
     />
+    <link rel="canonical" href="https://amyreil.online/amylearn" />
     <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="Amyreil Technologies" />
     <meta
       property="og:title"
-      content="AmyLearn — Academic platform for colleges | Amyreil Technologies"
+      content="AmyLearn — Academic platform for colleges | Amyreil"
     />
     <meta
       property="og:description"
       content="AmyLearn is a multi-tenant academic platform for attendance, examinations, learning, library and fee records. In beta, with a live demo on request."
     />
-    <meta property="og:image" content="assets/og-image.jpg" />
+    <meta property="og:url" content="https://amyreil.online/amylearn" />
+    <meta
+      property="og:image"
+      content="https://amyreil.online/assets/og-image.jpg"
+    />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta
+      property="og:image:alt"
+      content="Amyreil Technologies brand card reading Better questions. Better software."
+    />
     <meta name="twitter:card" content="summary_large_image" />
     <meta
       name="twitter:title"
-      content="AmyLearn — Academic platform for colleges | Amyreil Technologies"
+      content="AmyLearn — Academic platform for colleges | Amyreil"
     />
     <meta
       name="twitter:description"
       content="AmyLearn is a multi-tenant academic platform for attendance, examinations, learning, library and fee records. In beta, with a live demo on request."
     />
-    <meta name="twitter:image" content="assets/og-image.jpg" />
+    <meta
+      name="twitter:image"
+      content="https://amyreil.online/assets/og-image.jpg"
+    />
+    <meta
+      name="twitter:image:alt"
+      content="Amyreil Technologies brand card reading Better questions. Better software."
+    />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="theme-color" content="#071019" />
     <link rel="icon" type="image/svg+xml" href="assets/brand/favicon.svg" />
@@ -39,6 +56,38 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="assets/css/site.css" />
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "SoftwareApplication",
+            "@id": "https://amyreil.online/amylearn#software",
+            "name": "AmyLearn",
+            "url": "https://amyreil.online/amylearn",
+            "description": "A multi-tenant academic platform that runs a college's attendance, examinations, learning, library and fee records from one role-based workspace.",
+            "applicationCategory": "EducationalApplication",
+            "operatingSystem": "Web",
+            "inLanguage": "English",
+            "publisher": { "@id": "https://amyreil.online/#organization" },
+            "isPartOf": { "@id": "https://amyreil.online/#website" }
+          },
+          {
+            "@type": "Organization",
+            "@id": "https://amyreil.online/#organization",
+            "name": "Amyreil Technologies",
+            "url": "https://amyreil.online/",
+            "logo": "https://amyreil.online/assets/brand/amyreil-mark-512.png"
+          },
+          {
+            "@type": "WebSite",
+            "@id": "https://amyreil.online/#website",
+            "url": "https://amyreil.online/",
+            "name": "Amyreil Technologies"
+          }
+        ]
+      }
+    </script>
   </head>
   <body>
     <a href="#main" class="skip-link">Skip to main content</a>
@@ -46,11 +95,7 @@
     <div id="app">
       <nav class="nav" aria-label="Main navigation">
         <div class="nav-shell">
-          <a
-            class="brand"
-            href="index.html"
-            aria-label="Amyreil Technologies home"
-          >
+          <a class="brand" href="/" aria-label="Amyreil Technologies home">
             <img
               src="assets/brand/amyreil-logo-white.svg"
               alt="Amyreil Technologies"
@@ -59,11 +104,11 @@
             />
           </a>
           <div class="nav-links">
-            <a href="index.html#capabilities">Services</a>
-            <a href="index.html#work">Work</a>
-            <a href="index.html#loop">Approach</a>
-            <a href="about.html">About</a>
-            <a href="index.html#cta">Contact</a>
+            <a href="/#capabilities">Services</a>
+            <a href="/#work">Work</a>
+            <a href="/#loop">Approach</a>
+            <a href="/about">About</a>
+            <a href="/#cta">Contact</a>
           </div>
           <button class="btn btn--nav open-modal" type="button">
             Start a project
@@ -90,11 +135,7 @@
       >
         <div class="mobile-menu-inner">
           <div class="mobile-menu-top">
-            <a
-              href="index.html"
-              aria-label="Amyreil Technologies home"
-              data-menu-link
-            >
+            <a href="/" aria-label="Amyreil Technologies home" data-menu-link>
               <img
                 src="assets/brand/amyreil-logo-white.svg"
                 alt="Amyreil Technologies"
@@ -117,11 +158,11 @@
             </button>
           </div>
           <nav class="mobile-links" aria-label="Mobile navigation">
-            <a href="index.html#capabilities" data-menu-link>Services</a>
-            <a href="index.html#work" data-menu-link>Work</a>
-            <a href="index.html#loop" data-menu-link>Approach</a>
-            <a href="about.html" data-menu-link>About</a>
-            <a href="index.html#cta" data-menu-link>Contact</a>
+            <a href="/#capabilities" data-menu-link>Services</a>
+            <a href="/#work" data-menu-link>Work</a>
+            <a href="/#loop" data-menu-link>Approach</a>
+            <a href="/about" data-menu-link>About</a>
+            <a href="/#cta" data-menu-link>Contact</a>
           </nav>
           <button class="btn btn--lg open-modal" type="button">
             Start a project
@@ -135,7 +176,7 @@
       <main id="main">
         <header class="page-hero">
           <div class="shell">
-            <a class="back-link" href="index.html#work"
+            <a class="back-link" href="/#work"
               ><span aria-hidden="true">←</span> All work</a
             >
             <div class="page-hero-grid">
@@ -348,11 +389,11 @@
 
         <section class="more-products">
           <div class="shell more-products-grid">
-            <a href="trikal-darshi.html"
+            <a href="/trikal-darshi"
               ><span>Product</span><b>Trikal Darshi</b></a
             >
-            <a href="hotelease.html"><span>Product</span><b>HotelEase</b></a>
-            <a href="index.html#work"><span>Studio</span><b>All work</b></a>
+            <a href="/hotelease"><span>Product</span><b>HotelEase</b></a>
+            <a href="/#work"><span>Studio</span><b>All work</b></a>
           </div>
         </section>
       </main>
@@ -361,11 +402,7 @@
         <div class="shell">
           <div class="footer-top">
             <div class="footer-brand">
-              <a
-                class="brand"
-                href="index.html"
-                aria-label="Amyreil Technologies"
-              >
+              <a class="brand" href="/" aria-label="Amyreil Technologies">
                 <img
                   src="assets/brand/amyreil-logo-white.svg"
                   alt="Amyreil Technologies"
@@ -380,17 +417,17 @@
             </div>
             <nav class="footer-nav" aria-label="Studio">
               <span class="footer-col-title">Studio</span>
-              <a href="index.html#capabilities">Services</a>
-              <a href="index.html#work">Work</a>
-              <a href="index.html#loop">Approach</a>
-              <a href="about.html">About</a>
-              <a href="index.html#cta">Contact</a>
+              <a href="/#capabilities">Services</a>
+              <a href="/#work">Work</a>
+              <a href="/#loop">Approach</a>
+              <a href="/about">About</a>
+              <a href="/#cta">Contact</a>
             </nav>
             <nav class="footer-nav" aria-label="Products">
               <span class="footer-col-title">Products</span>
-              <a href="trikal-darshi.html">Trikal Darshi</a>
-              <a href="amylearn.html">AmyLearn</a>
-              <a href="hotelease.html">HotelEase</a>
+              <a href="/trikal-darshi">Trikal Darshi</a>
+              <a href="/amylearn">AmyLearn</a>
+              <a href="/hotelease">HotelEase</a>
             </nav>
             <div class="footer-contact">
               <a class="footer-mail" href="mailto:contact@amyreil.online"
@@ -472,8 +509,8 @@
               remote-first</span
             >
             <div class="footer-legal">
-              <a href="privacy.html">Privacy</a>
-              <a href="terms.html">Terms</a>
+              <a href="/privacy">Privacy</a>
+              <a href="/terms">Terms</a>
             </div>
           </div>
         </div>

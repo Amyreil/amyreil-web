@@ -1,2 +1,4 @@
 User-agent: *
 Allow: /
+
+Sitemap: https://amyreil.online/sitemap.xml

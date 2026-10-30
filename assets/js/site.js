@@ -792,7 +792,7 @@
                 <p class="form-error" id="formError" role="alert" hidden>
                   We couldn't send that just now. Try again, or email <a href="mailto:contact@amyreil.online">contact@amyreil.online</a> directly.
                 </p>
-                <p class="form-note">We use these details only to reply. See our <a href="privacy.html">privacy policy</a>.</p>
+                <p class="form-note">We use these details only to reply. See our <a href="/privacy">privacy policy</a>.</p>
               </form>
             </div>
           </div>`;
