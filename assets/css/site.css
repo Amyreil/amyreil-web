@@ -1663,7 +1663,7 @@ button {
 }
 .founder-grid {
   display: grid;
-  grid-template-columns: repeat(4, minmax(0, 1fr));
+  grid-template-columns: repeat(3, minmax(0, 1fr));
   gap: clamp(18px, 2.2vw, 30px);
 }
 .founder {
@@ -1723,12 +1723,32 @@ button {
   line-height: 1.45;
   color: var(--muted-dark);
 }
-@media (max-width: 1080px) {
-  .founder-grid {
-    grid-template-columns: repeat(3, minmax(0, 1fr));
-  }
+.team-sub {
+  margin-top: clamp(48px, 6vw, 88px);
 }
-@media (max-width: 760px) {
+.team-sub-head {
+  margin-bottom: clamp(20px, 2.6vw, 34px);
+  font-size: clamp(1.125rem, 1.8vw, 1.5rem);
+  font-weight: 500;
+  letter-spacing: -0.02em;
+}
+.team-single {
+  display: flex;
+  justify-content: center;
+}
+.team-single .founder {
+  width: min(100%, 340px);
+}
+.founder-photo--open {
+  border-style: dashed;
+  border-color: rgba(255, 255, 255, 0.18);
+  background: transparent;
+}
+.founder-photo--open .founder-mono {
+  font-weight: 400;
+  color: rgba(255, 255, 255, 0.32);
+}
+@media (max-width: 900px) {
   .founder-grid {
     grid-template-columns: repeat(2, minmax(0, 1fr));
     gap: 16px;

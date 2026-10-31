@@ -163,7 +163,7 @@ Mockup label: hotelease v2.2 / front-desk
 
 ### Studio teaser
 
-**Headline:** Seven people, one remote-first studio.
+**Headline:** Six founders, one remote-first studio.
 **Lead:** Independent, early stage and direct. Meet the team behind Trikal Darshi, HotelEase and AmyLearn.
 CTA: Meet the studio
 
@@ -179,12 +179,12 @@ Email: contact@amyreil.online
 ## About — `about.html` (`/about`)
 
 **Meta title:** About — Amyreil Technologies
-**Meta description:** Amyreil Technologies is an independent, remote-first agency in India. Meet the seven founders and the principles behind Trikal Darshi, HotelEase and AmyLearn.
+**Meta description:** Amyreil Technologies is an independent, remote-first agency in India. Meet the founders and the principles behind Trikal Darshi, HotelEase and AmyLearn.
 
 ### Hero
 
 **Headline:** An independent studio.
-**Lead:** Amyreil Technologies is an independent, remote-first agency in India. We build original SaaS products and deliver technology services to businesses and individuals, with direct access to the seven founders.
+**Lead:** Amyreil Technologies is an independent, remote-first agency in India. We build original SaaS products and deliver technology services to businesses and individuals, with direct access to the founders.
 
 **At a glance**
 
@@ -192,7 +192,7 @@ Email: contact@amyreil.online
 | ------ | ---------------------------- |
 | Model  | Independent agency           |
 | Stage  | Founding stage               |
-| Team   | Seven founders, one studio   |
+| Team   | Six founders and a core team |
 | Base   | India · no walk-in office    |
 | Builds | Own products and client work |
 
@@ -230,22 +230,31 @@ We do not build a product unless we can explain in one sentence why it should ex
 | Honest updates       | A written progress note every week, and risks raised when we see them, not at the deadline.           |
 | No overpromising     | We say what we can deliver and when, and we say no when something does not fit.                       |
 
-### Seven people, one studio.
+### Six founders, one studio.
 
-**Headline:** Seven people, one studio.
+**Headline:** Six founders, one studio.
 **Lead:** Founders across India, building remotely and working directly with the people who will use what we make.
 
-| Initials | Name              | Role                     | Study                                                                | Photo                          |
-| -------- | ----------------- | ------------------------ | -------------------------------------------------------------------- | ------------------------------ |
-| BH       | Bikram Hawladar   | Chief Executive Officer  | Final year CSE, IIIT Dharwad                                         | assets/founders/bikram.webp    |
-| SD       | Sourasanta Dutta  | Chief Technology Officer | B.Tech CSE (AI & ML), IEM Newtown, Kolkata                           | pending                        |
-| SR       | Soumajit Roy      | Chief Financial Officer  | Pre-final year CSE, Jain University, Bengaluru                       | assets/founders/soumajit.webp  |
-| TK       | Tanisha Kundu     | Chief Operating Officer  | 3rd year B.Sc (Hons) Forensic Science, Adamas University, Barasat    | pending                        |
-| AD       | Arnab Datta       | Chief Security Officer   | B.Tech CSE (Cyber Security), SRM Institute of Science and Technology | pending                        |
-| DR       | Dibyaroop Ray     | Chief Marketing Officer  | BBA (Hons) Marketing, Techno Main, Salt Lake                         | assets/founders/dibyaroop.webp |
-| SD       | Shuvankar Debnath | Chief Product Officer    | B.Tech EE, IEM Kolkata                                               | assets/founders/shuvankar.webp |
+Founders, shown as a three-column grid, two rows:
 
-Each founder card is a 4:5 portrait tile with the photo, the name, the role in blue and the study line beneath. Founders without a photo show their initials in the same tile. Original photos are dropped in the project root as `<Name>-photo.png`, converted to 640×800 WebP in `assets/founders/`, and the root originals stay out of git and out of the deployment.
+| Initials | Name              | Role                     | Study                                                             | Photo                          |
+| -------- | ----------------- | ------------------------ | ----------------------------------------------------------------- | ------------------------------ |
+| BH       | Bikram Hawladar   | Chief Executive Officer  | Final year CSE, IIIT Dharwad                                      | assets/founders/bikram.webp    |
+| SD       | Sourasanta Dutta  | Chief Technology Officer | B.Tech CSE (AI & ML), IEM Newtown, Kolkata                        | pending                        |
+| SR       | Soumajit Roy      | Chief Financial Officer  | Pre-final year CSE, Jain University, Bengaluru                    | assets/founders/soumajit.webp  |
+| TK       | Tanisha Kundu     | Chief Operating Officer  | 3rd year B.Sc (Hons) Forensic Science, Adamas University, Barasat | pending                        |
+| DR       | Dibyaroop Ray     | Chief Marketing Officer  | BBA (Hons) Marketing, Techno Main, Salt Lake                      | assets/founders/dibyaroop.webp |
+| SD       | Shuvankar Debnath | Chief Product Officer    | B.Tech EE, IEM Kolkata                                            | assets/founders/shuvankar.webp |
+
+**Core team** (own sub-heading, one card centred on the page):
+
+| Initials | Name        | Role                   | Study                                                                | Photo   |
+| -------- | ----------- | ---------------------- | -------------------------------------------------------------------- | ------- |
+| AD       | Arnab Datta | Chief Security Officer | B.Tech CSE (Cyber Security), SRM Institute of Science and Technology | pending |
+
+**The team** (own sub-heading, three placeholder cards): dashed portrait tile with a plus mark, "Coming soon" and "Details to follow". Replace each with the name, role, study line and photo when the details arrive.
+
+Every card is a 4:5 portrait tile with the photo, the name, the role in blue and the study line beneath. People without a photo show their initials in the same tile. Original photos are dropped in the project root as `<Name>-photo.png`, converted to 640×800 WebP in `assets/founders/`, and the root originals stay out of git and out of the deployment.
 
 ### Work with the studio.
 
