@@ -780,6 +780,7 @@
                     <option value="Workflow Improvement">Workflow improvement</option>
                     <option value="AmyLearn live demo">AmyLearn live demo</option>
                     <option value="HotelEase for my hotel">HotelEase for my hotel</option>
+                    <option value="Internship application">Internship application</option>
                     <option value="General Inquiry">General partnership or other</option>
                   </select>
                 </div>

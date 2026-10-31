@@ -188,13 +188,13 @@ Email: contact@amyreil.online
 
 **At a glance**
 
-| Label  | Value                        |
-| ------ | ---------------------------- |
-| Model  | Independent agency           |
-| Stage  | Founding stage               |
+| Label  | Value                                |
+| ------ | ------------------------------------ |
+| Model  | Independent agency                   |
+| Stage  | Founding stage                       |
 | Team   | Six founders, one CSO, three interns |
-| Base   | India · no walk-in office    |
-| Builds | Own products and client work |
+| Base   | India · no walk-in office            |
+| Builds | Own products and client work         |
 
 Link: Meet the founders ↓
 
@@ -237,19 +237,19 @@ We do not build a product unless we can explain in one sentence why it should ex
 
 Founders, shown as a three-column grid, two rows:
 
-| Initials | Name              | Role                     | Study                                                             | Photo                          |
-| -------- | ----------------- | ------------------------ | ----------------------------------------------------------------- | ------------------------------ |
-| BH       | Bikram Hawladar   | Chief Executive Officer  | B.Tech, Final year CSE, IIIT Dharwad                                      | assets/founders/bikram.webp    |
-| SD       | Sourasanta Dutta  | Chief Technology Officer | B.Tech, Final year CSE (AI & ML), IEM Newtown, Kolkata                        | assets/founders/sourasanta.webp                        |
-| SR       | Soumajit Roy      | Chief Financial Officer  | B.Tech, Pre-final year CSE, Jain University, Bengaluru                    | assets/founders/soumajit.webp  |
-| TK       | Tanisha Kundu     | Chief Operating Officer  | B.Sc (Hons), Pre-final year, Forensic Science, Adamas University, Barasat | pending                        |
-| DR       | Dibyaroop Ray     | Chief Marketing Officer  | BBA (Hons), Final year, Marketing, Techno Main, Salt Lake                      | assets/founders/dibyaroop.webp |
-| SD       | Shuvankar Debnath | Chief Product Officer    | B.Tech, Final year, Electrical Engineering, IEM Kolkata                                            | assets/founders/shuvankar.webp |
+| Initials | Name              | Role                     | Study                                                                     | Photo                           |
+| -------- | ----------------- | ------------------------ | ------------------------------------------------------------------------- | ------------------------------- |
+| BH       | Bikram Hawladar   | Chief Executive Officer  | B.Tech, Final year CSE, IIIT Dharwad                                      | assets/founders/bikram.webp     |
+| SD       | Sourasanta Dutta  | Chief Technology Officer | B.Tech, Final year CSE (AI & ML), IEM Newtown, Kolkata                    | assets/founders/sourasanta.webp |
+| SR       | Soumajit Roy      | Chief Financial Officer  | B.Tech, Pre-final year CSE, Jain University, Bengaluru                    | assets/founders/soumajit.webp   |
+| TK       | Tanisha Kundu     | Chief Operating Officer  | B.Sc (Hons), Pre-final year, Forensic Science, Adamas University, Barasat | pending                         |
+| DR       | Dibyaroop Ray     | Chief Marketing Officer  | BBA (Hons), Final year, Marketing, Techno Main, Salt Lake                 | assets/founders/dibyaroop.webp  |
+| SD       | Shuvankar Debnath | Chief Product Officer    | B.Tech, Final year, Electrical Engineering, IEM Kolkata                   | assets/founders/shuvankar.webp  |
 
 **Core team** (own sub-heading, one card centred on the page):
 
-| Initials | Name        | Role                   | Study                                                                | Photo   |
-| -------- | ----------- | ---------------------- | -------------------------------------------------------------------- | ------- |
+| Initials | Name        | Role                   | Study                                                                             | Photo   |
+| -------- | ----------- | ---------------------- | --------------------------------------------------------------------------------- | ------- |
 | AD       | Arnab Datta | Chief Security Officer | B.Tech, Final year, CSE (Cyber Security), SRM Institute of Science and Technology | pending |
 
 **The team** (own sub-heading, three cards):
@@ -267,6 +267,262 @@ Every card is a 4:5 portrait tile with the photo, the name, the role in blue and
 **Headline:** Work with the studio.
 **Lead:** Tell us what is slowing your team down, or which product you want to see.
 CTA: Start a conversation
+
+---
+
+## Careers
+
+Vacancies for interns only. Each role page repeats the same ground rules. Structured data on role pages is `JobPosting` with `employmentType: INTERN`, `jobLocationType: TELECOMMUTE` and `validThrough: 2027-01-31`; there is no salary field because the roles are unpaid.
+
+### Careers index — `careers/index.html` (`/careers`)
+
+**Meta title:** Careers — Internships at Amyreil Technologies
+**Meta description:** Unpaid remote internships for 2nd and 3rd year students in DevOps, Frontend and Backend. Work on the stack behind Trikal Darshi, AmyLearn and HotelEase.
+**H1:** Build real software while you are still studying.
+**Lead:** We take interns in their 2nd or 3rd year and put them on the stack that runs Trikal Darshi, AmyLearn and HotelEase. The roles are unpaid and remote, and this page says so before you apply.
+
+**Ground rules panel**
+
+- Roles: DevOps, Frontend, Backend
+- Level: 2nd or 3rd year students
+- Pay: Unpaid at present
+- Where: Remote, no walk-in office
+- Status: Not yet incorporated
+
+**Vacancy cards**
+
+- **Frontend Intern** — Builds the interfaces people actually touch, from this site to the AmyLearn portals. (Unpaid · Remote · 2nd or 3rd year)
+- **Backend Intern** — Works on the services behind AmyLearn and the calculation pipeline behind Trikal Darshi. (Unpaid · Remote · 2nd or 3rd year)
+- **DevOps Intern** — Keeps three products deployed, cached and reachable. (Unpaid · Remote · 2nd or 3rd year)
+
+**Open internships.**
+
+- Three roles are open now. Each one lists the stack, the work and what you take away from it, so you can decide whether it is worth a semester.
+
+**How to apply**
+
+- Write to contact@amyreil.online with the role in the subject line, a link to your GitHub or portfolio, and two lines on which parts of the stack you have already used. The form on this site reaches the same inbox.
+- A founder reads every application and replies within one working day, whether the answer is a call or a no.
+
+**What you would be joining**
+
+- Amyreil is an independent, remote-first studio of six founders in India. We build our own SaaS products and take client work that needs the same discipline. Nothing here is a prototype for a pitch deck; all three products have users today.
+
+**Before you apply.**
+
+- Every role here is an internship, open to students in their 2nd or 3rd year of a course.
+- These are unpaid positions. There is no stipend at present, and we would rather say it here than in an interview.
+- Amyreil Technologies is not incorporated in any country. We plan to incorporate in India at a later date. Until then, nothing on this page is an offer of employment.
+- All work is remote. There is no walk-in office to report to.
+- We hire on the stack these three products already use. If the work needs a different tool, you should be open to learning it.
+
+**Apply CTA:** No role fits you? — Tell us what you can do and what you want to build. If there is a place for it on these three products, we will say so.
+
+### Frontend Intern — `careers/frontend-intern.html` (`/careers/frontend-intern`)
+
+**Meta title:** Frontend Intern — Internship | Amyreil Technologies
+**Meta description:** Frontend internship at Amyreil Technologies. HTML, CSS, JavaScript and GSAP on a live site, React 18 and Vite on AmyLearn. Unpaid, remote, for 2nd or 3rd year students.
+**H1:** Frontend Intern
+**Lead:** Builds the interfaces people actually touch, from this site to the AmyLearn portals.
+
+**At a glance**
+
+- Type: Internship, unpaid
+- Where: Remote
+- For: 2nd or 3rd year students
+- Stack: HTML, CSS, JavaScript, GSAP, React 18, Vite
+
+**About the role**
+
+- You work on two surfaces. The Amyreil site is hand-written HTML, CSS and JavaScript with GSAP and Lenis for motion, no framework and no build step. AmyLearn, the academic platform, is React 18 with Vite. Most interns start on the marketing site because a change there is visible within a day, then move into product interfaces.
+
+**Why join us**
+
+- Three real products, not a training demo. Trikal Darshi is live, AmyLearn is in beta and HotelEase v2.2 is shipped.
+- Six founders and no layers. The person who reviews your work is the person who set the scope.
+- Your work reaches production. This site rebuilds on every push to main, on a domain people visit.
+- The week is built around your classes. We judge what lands, not how long you stayed online.
+
+**What you will do**
+
+- Turn a section idea into working HTML and CSS inside the shared design system in assets/css/site.css.
+- Add scroll motion with GSAP and ScrollTrigger, and keep the reduced-motion fallback working.
+- Check every change at 1440, 768 and 390 pixels before it ships.
+- Fix the small things that decide whether a page feels made: contrast, tap targets, heading order, alt text, image weight.
+- Help keep AmyLearn's React components tidy while the beta is still moving.
+
+**What you will learn**
+
+- A design system built from tokens instead of one-off values.
+- How motion changes perceived speed and measured load time, checked with Lighthouse.
+- Semantic HTML and accessibility that survives a real review.
+- How a static site is deployed, cached and served from a custom domain.
+- Component work in React 18 with Vite on a product with real users.
+
+**Requirements**
+
+- You are in your 2nd or 3rd year of a degree or diploma.
+- Comfortable with HTML, CSS and JavaScript fundamentals; you can lay out a page without a framework.
+- Something you can show us: a college project, a personal site, anything you built and finished.
+- You can read CSS you did not write and follow the existing pattern.
+- Willing to learn GSAP, Lenis and React as the work needs them.
+- Remote and readable in writing. You send an update instead of waiting for a meeting.
+
+**Perks**
+
+- Work that is live on amyreil.online, with your name in the commit history.
+- Direct access to the six founders, including the two who write most of the interface code.
+- Hours that fit around classes.
+- A written internship letter and a reference you can use afterwards.
+- Sight of three products at three stages: live, beta and shipped desktop.
+
+**The honest terms.**
+
+- Every role here is an internship, open to students in their 2nd or 3rd year of a course.
+- These are unpaid positions. There is no stipend at present, and we would rather say it here than in an interview.
+- Amyreil Technologies is not incorporated in any country. We plan to incorporate in India at a later date. Until then, nothing on this page is an offer of employment.
+- All work is remote. There is no walk-in office to report to.
+- We hire on the stack these three products already use. If the work needs a different tool, you should be open to learning it.
+
+**Apply CTA:** Send your work. — Put Frontend Intern in the subject, link your GitHub or portfolio, and say which parts of the stack you have already used. We reply within one working day.
+
+### Backend Intern — `careers/backend-intern.html` (`/careers/backend-intern`)
+
+**Meta title:** Backend Intern — Internship | Amyreil Technologies
+**Meta description:** Backend internship at Amyreil Technologies. Node.js, Express, Prisma and JWT on AmyLearn, plus the Swiss Ephemeris pipeline behind Trikal Darshi. Unpaid, remote, for 2nd or 3rd year students.
+**H1:** Backend Intern
+**Lead:** Works on the services behind AmyLearn and the calculation pipeline behind Trikal Darshi.
+
+**At a glance**
+
+- Type: Internship, unpaid
+- Where: Remote
+- For: 2nd or 3rd year students
+- Stack: Node.js, Express, Prisma, JWT, a relational database, Tesseract, Groq
+
+**About the role**
+
+- AmyLearn is a multi-tenant academic platform: Node.js with Express, Prisma for data, JWT sessions, and separate portals for students, faculty, exam cells and staff, with every record scoped to one college. Trikal Darshi casts charts with the Swiss Ephemeris in the Lahiri sidereal system and writes an eleven-chapter reading. HotelEase keeps its data in an encrypted file on the hotel's own PC, which is a different kind of backend problem: no server, no sync, no room for a lost record.
+
+**Why join us**
+
+- Three real products, not a training demo. Trikal Darshi is live, AmyLearn is in beta and HotelEase v2.2 is shipped.
+- Six founders and no layers. The person who reviews your work is the person who set the scope.
+- Your work reaches production. This site rebuilds on every push to main, on a domain people visit.
+- The week is built around your classes. We judge what lands, not how long you stayed online.
+
+**What you will do**
+
+- Build and fix endpoints for AmyLearn's attendance, examination, library and fee-ledger flows.
+- Keep tenant scoping honest. One college must never see another college's students, marks or fees.
+- Write migrations and review the queries behind them.
+- Work on auth and access: email verification, JWT sessions, roles and feature flags.
+- Handle the file work behind document upload and OCR.
+- Add the logging and tests that make a beta safe to put in front of a college.
+
+**What you will learn**
+
+- Multi-tenant data design, and the specific way it fails when it is bolted on late.
+- Schema and migration discipline with Prisma.
+- Third-party inference with Groq-hosted open-source models, and when not to call a model at all.
+- Deploying a Node service on Render behind a Vercel front end.
+- Encrypted local storage patterns from HotelEase: SQLCipher, Windows DPAPI, backups on launch.
+
+**Requirements**
+
+- You are in your 2nd or 3rd year of a degree or diploma.
+- JavaScript or TypeScript with Node.js, and at least one API you built yourself.
+- One relational database well enough to write a join by hand: PostgreSQL, MySQL or SQLite.
+- Git, and the habit of reading an error before asking about it.
+- Willing to learn Prisma, JWT flows and an OCR pipeline.
+- Comfortable working from a written scope rather than a standing call.
+
+**Perks**
+
+- Real users. AmyLearn is in beta with colleges, and Trikal Darshi is already live.
+- You will ship a migration that touches production data, with someone reviewing it first.
+- Direct access to the founder who built the AmyLearn data model.
+- A written internship letter and a reference you can use afterwards.
+- Backend work across web, mobile and desktop products in one stint.
+
+**The honest terms.**
+
+- Every role here is an internship, open to students in their 2nd or 3rd year of a course.
+- These are unpaid positions. There is no stipend at present, and we would rather say it here than in an interview.
+- Amyreil Technologies is not incorporated in any country. We plan to incorporate in India at a later date. Until then, nothing on this page is an offer of employment.
+- All work is remote. There is no walk-in office to report to.
+- We hire on the stack these three products already use. If the work needs a different tool, you should be open to learning it.
+
+**Apply CTA:** Send your work. — Put Backend Intern in the subject, link your GitHub or portfolio, and say which parts of the stack you have already used. We reply within one working day.
+
+### DevOps Intern — `careers/devops-intern.html` (`/careers/devops-intern`)
+
+**Meta title:** DevOps Intern — Internship | Amyreil Technologies
+**Meta description:** DevOps internship at Amyreil Technologies. Vercel and Render deployments, Cloudflare DNS, caching and security headers, performance checks on a live domain. Unpaid, remote, for 2nd or 3rd year students.
+**H1:** DevOps Intern
+**Lead:** Keeps three products deployed, cached and reachable.
+
+**At a glance**
+
+- Type: Internship, unpaid
+- Where: Remote
+- For: 2nd or 3rd year students
+- Stack: GitHub, Vercel, Render, Cloudflare DNS, HTTP headers, Lighthouse
+
+**About the role**
+
+- The setup is small and fully ours: this site and AmyLearn's front end on Vercel, AmyLearn's services on Render, DNS on Cloudflare, the amyreil.online domain, and a Windows desktop app delivered as an installer. There is no dedicated operations team and no budget for a tool you cannot justify in one sentence.
+
+**Why join us**
+
+- Three real products, not a training demo. Trikal Darshi is live, AmyLearn is in beta and HotelEase v2.2 is shipped.
+- Six founders and no layers. The person who reviews your work is the person who set the scope.
+- Your work reaches production. This site rebuilds on every push to main, on a domain people visit.
+- The week is built around your classes. We judge what lands, not how long you stayed online.
+
+**What you will do**
+
+- Watch deployments and roll back what breaks. The site rebuilds on every push to main.
+- Own the configuration: vercel.json clean URLs, cache rules, security headers and redirects.
+- Keep DNS and TLS healthy across the apex and the www record.
+- Check page weight and Core Web Vitals after each release instead of once a quarter.
+- Set up alerts worth reading, and delete the ones that are not.
+- Write the setup down so the next person is not guessing.
+
+**What you will learn**
+
+- Edge hosting, cache behaviour and header mechanics on a real domain.
+- Release discipline: preview deployments, clean URLs, and redirects that do not fight the canonical tags.
+- Measuring performance with Lighthouse instead of arguing about it.
+- Log triage across two hosts with different failure modes.
+- How a desktop app is versioned and delivered when no server is involved.
+
+**Requirements**
+
+- You are in your 2nd or 3rd year of a degree or diploma.
+- Comfortable on the command line and with Git.
+- You understand HTTP, DNS and HTTPS well enough to explain what a 308 does.
+- One scripting language good enough to automate a chore: Bash, Node or Python.
+- Willing to learn Vercel, Render and Cloudflare as we actually use them.
+- Calm when something is down, and curious before it is fixed.
+
+**Perks**
+
+- You will change production configuration on a live domain, with review, not a sandbox.
+- Direct access to the founder who set up the hosting and DNS.
+- A short list of tools, all of them real, none of them ceremonial.
+- A written internship letter and a reference you can use afterwards.
+- You will learn why a canonical tag and a redirect have to agree.
+
+**The honest terms.**
+
+- Every role here is an internship, open to students in their 2nd or 3rd year of a course.
+- These are unpaid positions. There is no stipend at present, and we would rather say it here than in an interview.
+- Amyreil Technologies is not incorporated in any country. We plan to incorporate in India at a later date. Until then, nothing on this page is an offer of employment.
+- All work is remote. There is no walk-in office to report to.
+- We hire on the stack these three products already use. If the work needs a different tool, you should be open to learning it.
+
+**Apply CTA:** Send your work. — Put DevOps Intern in the subject, link your GitHub or portfolio, and say which parts of the stack you have already used. We reply within one working day.
 
 ---
 

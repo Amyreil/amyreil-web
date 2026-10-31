@@ -1,0 +1,583 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Backend Intern — Internship | Amyreil Technologies</title>
+    <meta
+      name="description"
+      content="Backend internship at Amyreil Technologies. Node.js, Express, Prisma and JWT on AmyLearn, plus the Swiss Ephemeris pipeline behind Trikal Darshi. Unpaid, remote, for 2nd or 3rd year students."
+    />
+    <link
+      rel="canonical"
+      href="https://www.amyreil.online/careers/backend-intern"
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="Amyreil Technologies" />
+    <meta
+      property="og:title"
+      content="Backend Intern — Internship | Amyreil Technologies"
+    />
+    <meta
+      property="og:description"
+      content="Backend internship at Amyreil Technologies. Node.js, Express, Prisma and JWT on AmyLearn, plus the Swiss Ephemeris pipeline behind Trikal Darshi. Unpaid, remote, for 2nd or 3rd year students."
+    />
+    <meta
+      property="og:url"
+      content="https://www.amyreil.online/careers/backend-intern"
+    />
+    <meta
+      property="og:image"
+      content="https://www.amyreil.online/assets/og-image.jpg"
+    />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta
+      property="og:image:alt"
+      content="Amyreil Technologies brand card reading Better questions. Better software."
+    />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta
+      name="twitter:title"
+      content="Backend Intern — Internship | Amyreil Technologies"
+    />
+    <meta
+      name="twitter:description"
+      content="Backend internship at Amyreil Technologies. Node.js, Express, Prisma and JWT on AmyLearn, plus the Swiss Ephemeris pipeline behind Trikal Darshi. Unpaid, remote, for 2nd or 3rd year students."
+    />
+    <meta
+      name="twitter:image"
+      content="https://www.amyreil.online/assets/og-image.jpg"
+    />
+    <meta
+      name="twitter:image:alt"
+      content="Amyreil Technologies brand card reading Better questions. Better software."
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#071019" />
+    <link rel="icon" type="image/svg+xml" href="/assets/brand/favicon.svg" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Instrument+Sans:ital,wght@0,400..700;1,400..700&family=Caveat:wght@500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/assets/css/site.css" />
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "JobPosting",
+        "title": "Backend Intern",
+        "description": "Works on the services behind AmyLearn and the calculation pipeline behind Trikal Darshi. Unpaid remote internship for students in their 2nd or 3rd year. Amyreil Technologies is not incorporated in any country yet; incorporation in India is planned for a later date.",
+        "datePosted": "2026-10-31",
+        "validThrough": "2027-01-31",
+        "employmentType": "INTERN",
+        "jobLocationType": "TELECOMMUTE",
+        "applicantLocationRequirements": {
+          "@type": "Country",
+          "name": "India"
+        },
+        "occupationalCategory": "Information Technology",
+        "totalJobOpenings": 1,
+        "hiringOrganization": {
+          "@type": "Organization",
+          "name": "Amyreil Technologies",
+          "url": "https://www.amyreil.online/careers",
+          "sameAs": "https://www.amyreil.online/",
+          "logo": "https://www.amyreil.online/assets/brand/amyreil-mark-512.png"
+        }
+      }
+    </script>
+  </head>
+  <body>
+    <a href="#main" class="skip-link">Skip to main content</a>
+
+    <div id="app">
+      <nav class="nav" aria-label="Main navigation">
+        <div class="nav-shell">
+          <a class="brand" href="/" aria-label="Amyreil Technologies home">
+            <img
+              src="/assets/brand/amyreil-logo-white.svg"
+              alt="Amyreil Technologies"
+              width="112"
+              height="38"
+            />
+          </a>
+          <div class="nav-links">
+            <a href="/#capabilities">Services</a>
+            <a href="/#work">Work</a>
+            <a href="/#loop">Approach</a>
+            <a href="/about" aria-current="page">About</a>
+            <a href="/#cta">Contact</a>
+          </div>
+          <button class="btn btn--nav open-modal" type="button">
+            Start a project
+          </button>
+          <button
+            class="menu-btn"
+            type="button"
+            aria-label="Open menu"
+            aria-expanded="false"
+            aria-controls="mobileMenu"
+          >
+            <span></span><span></span>
+          </button>
+        </div>
+      </nav>
+
+      <div
+        class="mobile-menu"
+        id="mobileMenu"
+        role="dialog"
+        aria-modal="true"
+        aria-label="Menu"
+        aria-hidden="true"
+      >
+        <div class="mobile-menu-inner">
+          <div class="mobile-menu-top">
+            <a href="/" aria-label="Amyreil Technologies home" data-menu-link>
+              <img
+                src="/assets/brand/amyreil-logo-white.svg"
+                alt="Amyreil Technologies"
+                width="112"
+                height="38"
+              />
+            </a>
+            <button class="menu-close" type="button" aria-label="Close menu">
+              <svg
+                width="16"
+                height="16"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                aria-hidden="true"
+              >
+                <path d="M6 6l12 12M18 6L6 18" />
+              </svg>
+            </button>
+          </div>
+          <nav class="mobile-links" aria-label="Mobile navigation">
+            <a href="/#capabilities" data-menu-link>Services</a>
+            <a href="/#work" data-menu-link>Work</a>
+            <a href="/#loop" data-menu-link>Approach</a>
+            <a href="/about" data-menu-link>About</a>
+            $2<a href="/careers" data-menu-link>Careers</a>
+            <a href="/#cta" data-menu-link>Contact</a>
+          </nav>
+          <button class="btn btn--lg open-modal" type="button">
+            Start a project
+          </button>
+          <a class="mobile-mail" href="mailto:contact@amyreil.online"
+            >contact@amyreil.online</a
+          >
+        </div>
+      </div>
+
+      <main id="main">
+        <header class="page-hero">
+          <div class="shell">
+            <a class="back-link" href="/careers"
+              ><span aria-hidden="true">&larr;</span> All internships</a
+            >
+            <div class="page-hero-grid">
+              <div>
+                <p class="project-status">Unpaid · Remote · Internship</p>
+                <h1 class="split">Backend Intern</h1>
+                <p class="page-lead">
+                  Works on the services behind AmyLearn and the calculation
+                  pipeline behind Trikal Darshi.
+                </p>
+                <div class="page-actions">
+                  <button
+                    class="btn btn--lg open-modal"
+                    type="button"
+                    data-service="Internship application"
+                  >
+                    Apply for this role
+                  </button>
+                  <a
+                    class="text-link text-link--ink"
+                    href="mailto:contact@amyreil.online?subject=Backend%20Intern%20application"
+                    >contact@amyreil.online</a
+                  >
+                </div>
+              </div>
+              <aside class="about-hero-side" aria-label="Role at a glance">
+                <p class="about-side-title">At a glance</p>
+                <dl class="about-side-facts">
+                  <div>
+                    <dt>Type</dt>
+                    <dd>Internship, unpaid</dd>
+                  </div>
+                  <div>
+                    <dt>Where</dt>
+                    <dd>Remote</dd>
+                  </div>
+                  <div>
+                    <dt>For</dt>
+                    <dd>2nd or 3rd year students</dd>
+                  </div>
+                  <div>
+                    <dt>Stack</dt>
+                    <dd>
+                      Node.js, Express, Prisma, JWT, a relational database,
+                      Tesseract, Groq
+                    </dd>
+                  </div>
+                </dl>
+              </aside>
+            </div>
+          </div>
+        </header>
+
+        <div class="page-body">
+          <div class="shell">
+            <section class="detail-section">
+              <div class="detail-grid">
+                <h2 class="split">About the role</h2>
+                <div class="detail-copy">
+                  <p>
+                    AmyLearn is a multi-tenant academic platform: Node.js with
+                    Express, Prisma for data, JWT sessions, and separate portals
+                    for students, faculty, exam cells and staff, with every
+                    record scoped to one college. Trikal Darshi casts charts
+                    with the Swiss Ephemeris in the Lahiri sidereal system and
+                    writes an eleven-chapter reading. HotelEase keeps its data
+                    in an encrypted file on the hotel's own PC, which is a
+                    different kind of backend problem: no server, no sync, no
+                    room for a lost record.
+                  </p>
+                </div>
+              </div>
+            </section>
+            <section class="detail-section">
+              <div class="detail-grid">
+                <h2 class="split">Why join us</h2>
+                <div class="detail-copy">
+                  <ul class="note-list">
+                    <li>
+                      Three real products, not a training demo. Trikal Darshi is
+                      live, AmyLearn is in beta and HotelEase v2.2 is shipped.
+                    </li>
+                    <li>
+                      Six founders and no layers. The person who reviews your
+                      work is the person who set the scope.
+                    </li>
+                    <li>
+                      Your work reaches production. This site rebuilds on every
+                      push to main, on a domain people visit.
+                    </li>
+                    <li>
+                      The week is built around your classes. We judge what
+                      lands, not how long you stayed online.
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </section>
+            <section class="detail-section">
+              <div class="detail-grid">
+                <h2 class="split">What you will do</h2>
+                <div class="detail-copy">
+                  <ul class="note-list">
+                    <li>
+                      Build and fix endpoints for AmyLearn's attendance,
+                      examination, library and fee-ledger flows.
+                    </li>
+                    <li>
+                      Keep tenant scoping honest. One college must never see
+                      another college's students, marks or fees.
+                    </li>
+                    <li>
+                      Write migrations and review the queries behind them.
+                    </li>
+                    <li>
+                      Work on auth and access: email verification, JWT sessions,
+                      roles and feature flags.
+                    </li>
+                    <li>
+                      Handle the file work behind document upload and OCR.
+                    </li>
+                    <li>
+                      Add the logging and tests that make a beta safe to put in
+                      front of a college.
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </section>
+            <section class="detail-section">
+              <div class="detail-grid">
+                <h2 class="split">What you will learn</h2>
+                <div class="detail-copy">
+                  <ul class="note-list">
+                    <li>
+                      Multi-tenant data design, and the specific way it fails
+                      when it is bolted on late.
+                    </li>
+                    <li>Schema and migration discipline with Prisma.</li>
+                    <li>
+                      Third-party inference with Groq-hosted open-source models,
+                      and when not to call a model at all.
+                    </li>
+                    <li>
+                      Deploying a Node service on Render behind a Vercel front
+                      end.
+                    </li>
+                    <li>
+                      Encrypted local storage patterns from HotelEase:
+                      SQLCipher, Windows DPAPI, backups on launch.
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </section>
+            <section class="detail-section">
+              <div class="detail-grid">
+                <h2 class="split">Requirements</h2>
+                <div class="detail-copy">
+                  <ul class="note-list">
+                    <li>
+                      You are in your 2nd or 3rd year of a degree or diploma.
+                    </li>
+                    <li>
+                      JavaScript or TypeScript with Node.js, and at least one
+                      API you built yourself.
+                    </li>
+                    <li>
+                      One relational database well enough to write a join by
+                      hand: PostgreSQL, MySQL or SQLite.
+                    </li>
+                    <li>
+                      Git, and the habit of reading an error before asking about
+                      it.
+                    </li>
+                    <li>
+                      Willing to learn Prisma, JWT flows and an OCR pipeline.
+                    </li>
+                    <li>
+                      Comfortable working from a written scope rather than a
+                      standing call.
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </section>
+            <section class="detail-section">
+              <div class="detail-grid">
+                <h2 class="split">Perks</h2>
+                <div class="detail-copy">
+                  <ul class="note-list">
+                    <li>
+                      Real users. AmyLearn is in beta with colleges, and Trikal
+                      Darshi is already live.
+                    </li>
+                    <li>
+                      You will ship a migration that touches production data,
+                      with someone reviewing it first.
+                    </li>
+                    <li>
+                      Direct access to the founder who built the AmyLearn data
+                      model.
+                    </li>
+                    <li>
+                      A written internship letter and a reference you can use
+                      afterwards.
+                    </li>
+                    <li>
+                      Backend work across web, mobile and desktop products in
+                      one stint.
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </section>
+          </div>
+        </div>
+
+        <section class="note-band">
+          <div class="shell detail-grid">
+            <h2 class="split">The honest terms.</h2>
+            <ul class="note-list">
+              <li>
+                Every role here is an internship, open to students in their 2nd
+                or 3rd year of a course.
+              </li>
+              <li>
+                These are unpaid positions. There is no stipend at present, and
+                we would rather say it here than in an interview.
+              </li>
+              <li>
+                Amyreil Technologies is not incorporated in any country. We plan
+                to incorporate in India at a later date. Until then, nothing on
+                this page is an offer of employment.
+              </li>
+              <li>
+                All work is remote. There is no walk-in office to report to.
+              </li>
+              <li>
+                We hire on the stack these three products already use. If the
+                work needs a different tool, you should be open to learning it.
+              </li>
+            </ul>
+          </div>
+        </section>
+        <section class="product-cta">
+          <div class="shell product-cta-grid">
+            <h2 class="split">Send your work.</h2>
+            <div>
+              <p>
+                Put Backend Intern in the subject, link your GitHub or
+                portfolio, and say which parts of the stack you have already
+                used. We reply within one working day.
+              </p>
+              <button
+                class="btn btn--lg open-modal"
+                type="button"
+                data-service="Internship application"
+              >
+                Apply for Backend Intern
+              </button>
+            </div>
+          </div>
+        </section>
+
+        <section class="more-products">
+          <div class="shell more-products-grid">
+            <a href="/careers/frontend-intern"
+              ><span>Internship</span><b>Frontend Intern</b></a
+            >
+            <a href="/careers/devops-intern"
+              ><span>Internship</span><b>DevOps Intern</b></a
+            >
+            <a href="/careers"><span>All roles</span><b>Open internships</b></a>
+          </div>
+        </section>
+      </main>
+
+      <footer class="footer" id="footer">
+        <div class="shell">
+          <div class="footer-top">
+            <div class="footer-brand">
+              <a class="brand" href="/" aria-label="Amyreil Technologies">
+                <img
+                  src="/assets/brand/amyreil-logo-white.svg"
+                  alt="Amyreil Technologies"
+                  width="112"
+                  height="38"
+                />
+              </a>
+              <p>
+                Independent, remote-first studio building SaaS products, AI
+                tools and operational software.
+              </p>
+            </div>
+            <nav class="footer-nav" aria-label="Studio">
+              <span class="footer-col-title">Studio</span>
+              <a href="/#capabilities">Services</a>
+              <a href="/#work">Work</a>
+              <a href="/#loop">Approach</a>
+              <a href="/about">About</a>
+              $2<a href="/careers">Careers</a>
+              <a href="/#cta">Contact</a>
+            </nav>
+            <nav class="footer-nav" aria-label="Products">
+              <span class="footer-col-title">Products</span>
+              <a href="/trikal-darshi">Trikal Darshi</a>
+              <a href="/amylearn">AmyLearn</a>
+              <a href="/hotelease">HotelEase</a>
+            </nav>
+            <div class="footer-contact">
+              <a class="footer-mail" href="mailto:contact@amyreil.online"
+                >contact@amyreil.online</a
+              >
+              <!-- Social links: replace each href="#" with the real profile URL when the page exists. -->
+              <nav class="social" aria-label="Amyreil on social platforms">
+                <a
+                  class="social-link"
+                  href="#"
+                  data-social="LinkedIn"
+                  aria-label="Amyreil on LinkedIn"
+                >
+                  <svg
+                    viewBox="0 0 24 24"
+                    fill="currentColor"
+                    aria-hidden="true"
+                  >
+                    <path
+                      d="M4.98 3.5a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5zM3 9h4v12H3zM9 9h3.8v1.7h.05c.53-1 1.83-2.05 3.77-2.05 4.03 0 4.78 2.65 4.78 6.1V21h-4v-5.4c0-1.29-.02-2.95-1.8-2.95-1.8 0-2.08 1.4-2.08 2.85V21H9z"
+                    />
+                  </svg>
+                </a>
+                <a
+                  class="social-link"
+                  href="#"
+                  data-social="X"
+                  aria-label="Amyreil on X"
+                >
+                  <svg
+                    viewBox="0 0 24 24"
+                    fill="currentColor"
+                    aria-hidden="true"
+                  >
+                    <path
+                      d="M17.53 3H21l-7.19 8.21L22 21h-6.56l-5.14-6.72L4.4 21H1l7.62-8.7L1.9 3h6.72l4.65 6.15L17.53 3Zm-1.15 16h1.84L7.7 4.9H5.73L16.38 19Z"
+                    />
+                  </svg>
+                </a>
+                <a
+                  class="social-link"
+                  href="#"
+                  data-social="GitHub"
+                  aria-label="Amyreil on GitHub"
+                >
+                  <svg
+                    viewBox="0 0 24 24"
+                    fill="currentColor"
+                    aria-hidden="true"
+                  >
+                    <path
+                      d="M12 2a10 10 0 0 0-3.16 19.49c.5.09.68-.22.68-.48v-1.7c-2.78.6-3.37-1.34-3.37-1.34-.45-1.16-1.11-1.47-1.11-1.47-.91-.62.07-.61.07-.61 1 .07 1.53 1.03 1.53 1.03.89 1.53 2.34 1.09 2.91.83.09-.65.35-1.09.63-1.34-2.22-.25-4.56-1.11-4.56-4.94 0-1.09.39-1.98 1.03-2.68-.1-.25-.45-1.27.1-2.64 0 0 .84-.27 2.75 1.02a9.5 9.5 0 0 1 5 0c1.91-1.29 2.75-1.02 2.75-1.02.55 1.37.2 2.39.1 2.64.64.7 1.03 1.59 1.03 2.68 0 3.84-2.34 4.68-4.57 4.93.36.31.68.92.68 1.85v2.74c0 .27.18.58.69.48A10 10 0 0 0 12 2Z"
+                    />
+                  </svg>
+                </a>
+                <a
+                  class="social-link"
+                  href="#"
+                  data-social="Instagram"
+                  aria-label="Amyreil on Instagram"
+                >
+                  <svg
+                    viewBox="0 0 24 24"
+                    fill="currentColor"
+                    aria-hidden="true"
+                  >
+                    <path
+                      d="M12 2.2c3.2 0 3.58.01 4.85.07 1.17.05 1.8.25 2.23.41.56.22.96.48 1.38.9.42.42.68.82.9 1.38.16.42.36 1.06.41 2.23.06 1.27.07 1.65.07 4.85s-.01 3.58-.07 4.85c-.05 1.17-.25 1.8-.41 2.23-.22.56-.48.96-.9 1.38-.42.42-.82.68-1.38.9-.42.16-1.06.36-2.23.41-1.27.06-1.65.07-4.85.07s-3.58-.01-4.85-.07c-1.17-.05-1.8-.25-2.23-.41a3.8 3.8 0 0 1-1.38-.9 3.8 3.8 0 0 1-.9-1.38c-.16-.42-.36-1.06-.41-2.23C2.21 15.58 2.2 15.2 2.2 12s.01-3.58.07-4.85c.05-1.17.25-1.8.41-2.23.22-.56.48-.96.9-1.38.42-.42.82-.68 1.38-.9.42-.16 1.06-.36 2.23-.41C8.42 2.21 8.8 2.2 12 2.2Zm0 1.8c-3.15 0-3.5.01-4.74.07-1.14.05-1.76.24-2.17.4-.55.21-.94.47-1.35.88-.41.41-.67.8-.88 1.35-.16.41-.35 1.03-.4 2.17C2.4 10.11 2.4 10.46 2.4 12s.01 1.89.06 3.13c.05 1.14.24 1.76.4 2.17.21.55.47.94.88 1.35.41.41.8.67 1.35.88.41.16 1.03.35 2.17.4 1.24.06 1.59.07 4.74.07s3.5-.01 4.74-.07c1.14-.05 1.76-.24 2.17-.4.55-.21.94-.47 1.35-.88.41-.41.67-.8.88-1.35.16-.41.35-1.03.4-2.17.06-1.24.07-1.59.07-3.13s-.01-1.89-.07-3.13c-.05-1.14-.24-1.76-.4-2.17a3.6 3.6 0 0 0-.88-1.35 3.6 3.6 0 0 0-1.35-.88c-.41-.16-1.03-.35-2.17-.4C15.5 4.01 15.15 4 12 4Zm0 3.06a4.94 4.94 0 1 1 0 9.88 4.94 4.94 0 0 1 0-9.88Zm0 1.8a3.14 3.14 0 1 0 0 6.28 3.14 3.14 0 0 0 0-6.28Zm5.15-2.82a1.2 1.2 0 1 1 0 2.4 1.2 1.2 0 0 1 0-2.4Z"
+                    />
+                  </svg>
+                </a>
+              </nav>
+              <p class="footer-place">Remote-first · No walk-in office</p>
+            </div>
+          </div>
+          <div class="footer-bottom">
+            <span
+              >© 2026 Amyreil Technologies · Independent studio,
+              remote-first</span
+            >
+            <div class="footer-legal">
+              <a href="/privacy">Privacy</a>
+              <a href="/terms">Terms</a>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+
+    <script src="/assets/vendor/gsap.min.js"></script>
+    <script src="/assets/vendor/ScrollTrigger.min.js"></script>
+    <script src="/assets/vendor/lenis.min.js"></script>
+    <script src="/assets/js/site.js"></script>
+  </body>
+</html>

@@ -1740,6 +1740,11 @@ button {
   display: flex;
   justify-content: center;
 }
+.team-join {
+  display: flex;
+  justify-content: center;
+  margin-top: clamp(36px, 4.5vw, 56px);
+}
 .team-single .founder {
   width: min(100%, 336px);
 }
@@ -2214,6 +2219,27 @@ button {
   line-height: 1.6;
   color: var(--muted-light);
   max-width: 40ch;
+}
+.vacancy-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: clamp(28px, 4vw, 44px);
+  margin-top: clamp(36px, 5vw, 56px);
+}
+.feature-meta {
+  margin-top: 10px;
+  font-size: 0.8125rem;
+  color: var(--muted-light);
+}
+.feature .text-link {
+  display: inline-flex;
+  margin-top: 14px;
+}
+@media (max-width: 900px) {
+  .vacancy-grid {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 28px;
+  }
 }
 .note-band {
   background: var(--paper-2);
