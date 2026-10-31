@@ -1739,15 +1739,6 @@ button {
 .team-single .founder {
   width: min(100%, 340px);
 }
-.founder-photo--open {
-  border-style: dashed;
-  border-color: rgba(255, 255, 255, 0.18);
-  background: transparent;
-}
-.founder-photo--open .founder-mono {
-  font-weight: 400;
-  color: rgba(255, 255, 255, 0.32);
-}
 @media (max-width: 900px) {
   .founder-grid {
     grid-template-columns: repeat(2, minmax(0, 1fr));
