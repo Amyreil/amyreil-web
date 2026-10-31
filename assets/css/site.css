@@ -1663,8 +1663,12 @@ button {
 }
 .founder-grid {
   display: grid;
-  grid-template-columns: repeat(3, minmax(0, 1fr));
+  grid-template-columns: repeat(3, minmax(0, 336px));
+  justify-content: center;
   gap: clamp(18px, 2.2vw, 30px);
+}
+.founder-grid--team {
+  grid-template-columns: repeat(3, minmax(0, 296px));
 }
 .founder {
   display: flex;
@@ -1737,12 +1741,15 @@ button {
   justify-content: center;
 }
 .team-single .founder {
-  width: min(100%, 340px);
+  width: min(100%, 336px);
 }
 @media (max-width: 900px) {
   .founder-grid {
-    grid-template-columns: repeat(2, minmax(0, 1fr));
+    grid-template-columns: repeat(2, minmax(0, 336px));
     gap: 16px;
+  }
+  .founder-grid--team {
+    grid-template-columns: repeat(2, minmax(0, 296px));
   }
   .founder-meta {
     padding-top: 12px;
