@@ -940,6 +940,137 @@
     });
   }
 
+  /* Internship applications go to a Google Apps Script web app that stores the
+     PDF in the studio Drive and appends a row to the sheet. The token is a
+     shared form gate, not an account credential. */
+  const APPLY_ENDPOINT =
+    "https://script.google.com/macros/s/AKfycbwCOsDWpytO8JwkXiVm_2A6M0mZPV1GyWdLt8Hb32WYZIhObaIowP-7KEvhtz4Dmik-Pg/exec";
+  const APPLY_TOKEN =
+    "vdsbh543y4kjv4353bjl4hb52654456f46f4vdgvsfgv_sdcfv645dvsc1fvsd1";
+
+  const applyForm = document.getElementById("applyForm");
+  if (applyForm) {
+    const roleSelect = document.getElementById("role");
+    const requestedRole = new URLSearchParams(location.search).get("role");
+    if (
+      requestedRole &&
+      roleSelect &&
+      [...roleSelect.options].some((option) => option.value === requestedRole)
+    ) {
+      roleSelect.value = requestedRole;
+    }
+
+    const fileInput = document.getElementById("resume");
+    const fileHint = document.getElementById("resumeHint");
+    const submitBtn = document.getElementById("applySubmit");
+    const formError = document.getElementById("applyError");
+    const MAX_BYTES = 2 * 1024 * 1024;
+    const hintText = fileHint ? fileHint.textContent : "";
+
+    const checkFile = () => {
+      const file = fileInput.files[0];
+      let message = "";
+      if (file && !/\.pdf$/i.test(file.name)) {
+        message = "Attach the resume as a PDF.";
+      } else if (file && file.size > MAX_BYTES) {
+        message =
+          "That PDF is over 2 MB. Export a smaller copy and attach it again.";
+      }
+      fileInput.setCustomValidity(message);
+      if (fileHint) {
+        fileHint.textContent = message || hintText;
+        fileHint.classList.toggle("is-error", Boolean(message));
+      }
+    };
+    fileInput.addEventListener("change", checkFile);
+
+    const toBase64 = (file) =>
+      new Promise((resolve, reject) => {
+        const reader = new FileReader();
+        reader.onload = () =>
+          resolve(String(reader.result).split(",")[1] || "");
+        reader.onerror = () => reject(new Error("Could not read the PDF."));
+        reader.readAsDataURL(file);
+      });
+
+    const withScheme = (value) => {
+      const clean = String(value || "").trim();
+      if (!clean) return "";
+      return /^https?:\/\//i.test(clean) ? clean : "https://" + clean;
+    };
+
+    applyForm.addEventListener("submit", async (event) => {
+      event.preventDefault();
+      if (!applyForm.reportValidity()) return;
+      if (!submitBtn || submitBtn.disabled) return;
+
+      const data = new FormData(applyForm);
+      if (String(data.get("gotcha") || "").trim()) return;
+      const file = fileInput.files[0];
+      if (!file) return;
+      if (file.size > MAX_BYTES || !/\.pdf$/i.test(file.name)) {
+        checkFile();
+        applyForm.reportValidity();
+        return;
+      }
+
+      if (formError) formError.hidden = true;
+      submitBtn.disabled = true;
+      submitBtn.textContent = "Sending…";
+
+      try {
+        const payload = {
+          token: APPLY_TOKEN,
+          gotcha: "",
+          role: String(data.get("role") || ""),
+          fullName: String(data.get("fullName") || "").trim(),
+          address: String(data.get("address") || "").trim(),
+          course: String(data.get("course") || "").trim(),
+          branch: String(data.get("branch") || "").trim(),
+          startYear: String(data.get("startYear") || "").trim(),
+          linkedin: withScheme(data.get("linkedin")),
+          github: withScheme(data.get("github")),
+          portfolio: withScheme(data.get("portfolio")),
+          fileName: file.name,
+          fileData: await toBase64(file),
+        };
+        const res = await fetch(APPLY_ENDPOINT, {
+          method: "POST",
+          headers: { "Content-Type": "text/plain;charset=utf-8" },
+          body: JSON.stringify(payload),
+        });
+        const result = await res.json().catch(() => null);
+        if (!res.ok || !result || !result.ok) {
+          throw new Error(
+            result && result.error
+              ? result.error
+              : "Your application could not be sent. Try again.",
+          );
+        }
+        window.location.assign("/careers?applied=1");
+      } catch (err) {
+        submitBtn.disabled = false;
+        submitBtn.textContent = "Send application";
+        if (formError) {
+          formError.textContent =
+            err.message && err.message !== "Failed to fetch"
+              ? err.message
+              : "Your application could not be sent. Check your connection and try again.";
+          formError.hidden = false;
+        }
+      }
+    });
+  }
+
+  const applyConfirm = document.getElementById("applyConfirm");
+  if (
+    applyConfirm &&
+    new URLSearchParams(location.search).get("applied") === "1"
+  ) {
+    applyConfirm.hidden = false;
+    history.replaceState(null, "", location.pathname);
+  }
+
   /* Social holders start inert; paste a real URL into href and they act as normal links. */
   document.querySelectorAll("[data-social]").forEach((link) => {
     if (link.getAttribute("href") !== "#") return;

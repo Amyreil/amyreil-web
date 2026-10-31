@@ -289,11 +289,11 @@ Vacancies for interns only. Each role page repeats the same ground rules. Struct
 - Where: Remote, no walk-in office
 - Status: Not yet incorporated
 
-**Vacancy cards**
+**Open roles list** (one row per role, each with a See more button to the role page)
 
-- **Frontend Intern** — Builds the interfaces people actually touch, from this site to the AmyLearn portals. (Unpaid · Remote · 2nd or 3rd year)
-- **Backend Intern** — Works on the services behind AmyLearn and the calculation pipeline behind Trikal Darshi. (Unpaid · Remote · 2nd or 3rd year)
-- **DevOps Intern** — Keeps three products deployed, cached and reachable. (Unpaid · Remote · 2nd or 3rd year)
+- **Frontend Intern** — Builds the interfaces people actually touch, from this site to the AmyLearn portals. (Type: Internship, unpaid · Where: Remote · Stack: HTML, CSS, JS, GSAP, React)
+- **Backend Intern** — Works on the services behind AmyLearn and the calculation pipeline behind Trikal Darshi. (Type: Internship, unpaid · Where: Remote · Stack: Node, Express, Prisma, JWT)
+- **DevOps Intern** — Keeps three products deployed, cached and reachable. (Type: Internship, unpaid · Where: Remote · Stack: GitHub, Vercel, Cloudflare)
 
 **Open internships.**
 
@@ -301,8 +301,9 @@ Vacancies for interns only. Each role page repeats the same ground rules. Struct
 
 **How to apply**
 
-- Write to contact@amyreil.online with the role in the subject line, a link to your GitHub or portfolio, and two lines on which parts of the stack you have already used. The form on this site reaches the same inbox.
+- Pick a role, fill in one form and attach your resume as a PDF. It takes about five minutes, and you can add your LinkedIn, GitHub or portfolio if you have them.
 - A founder reads every application and replies within one working day, whether the answer is a call or a no.
+- Start an application → `/careers/apply`
 
 **What you would be joining**
 
@@ -384,7 +385,7 @@ Vacancies for interns only. Each role page repeats the same ground rules. Struct
 - All work is remote. There is no walk-in office to report to.
 - We hire on the stack these three products already use. If the work needs a different tool, you should be open to learning it.
 
-**Apply CTA:** Send your work. — Put Frontend Intern in the subject, link your GitHub or portfolio, and say which parts of the stack you have already used. We reply within one working day.
+**Apply CTA:** Send your work. — Fill in the application form, attach your resume as a PDF and add a link to anything you have built. The role is already selected for you. → `/careers/apply?role=frontend-intern`
 
 ### Backend Intern — `careers/backend-intern.html` (`/careers/backend-intern`)
 
@@ -453,7 +454,7 @@ Vacancies for interns only. Each role page repeats the same ground rules. Struct
 - All work is remote. There is no walk-in office to report to.
 - We hire on the stack these three products already use. If the work needs a different tool, you should be open to learning it.
 
-**Apply CTA:** Send your work. — Put Backend Intern in the subject, link your GitHub or portfolio, and say which parts of the stack you have already used. We reply within one working day.
+**Apply CTA:** Send your work. — Fill in the application form, attach your resume as a PDF and add a link to anything you have built. The role is already selected for you. → `/careers/apply?role=backend-intern`
 
 ### DevOps Intern — `careers/devops-intern.html` (`/careers/devops-intern`)
 
@@ -522,7 +523,44 @@ Vacancies for interns only. Each role page repeats the same ground rules. Struct
 - All work is remote. There is no walk-in office to report to.
 - We hire on the stack these three products already use. If the work needs a different tool, you should be open to learning it.
 
-**Apply CTA:** Send your work. — Put DevOps Intern in the subject, link your GitHub or portfolio, and say which parts of the stack you have already used. We reply within one working day.
+**Apply CTA:** Send your work. — Fill in the application form, attach your resume as a PDF and add a link to anything you have built. The role is already selected for you. → `/careers/apply?role=devops-intern`
+
+### Application form — `careers/apply.html` (`/careers/apply`, `noindex`)
+
+**Meta title:** Apply — Internships at Amyreil Technologies
+**Meta description:** Apply for a Frontend, Backend or DevOps internship at Amyreil Technologies. One form, a resume PDF, and a reply within one working day.
+**H1:** Apply for an internship.
+**Lead:** One form for all three roles. Fill in who you are, attach your resume as a PDF, and pick the role you want. It takes about five minutes.
+
+**Short version panel**
+
+- Resume: One PDF, 2 MB max
+- Links: Optional
+- Reply: Within one working day
+- Roles: Unpaid, remote
+
+**Required fields**
+
+- Full name
+- Role you want to apply for (Frontend, Backend or DevOps; pre-selected by `?role=` from a role page)
+- Address
+- Course pursuing
+- Branch
+- Start year (four digits)
+- Resume PDF (one file, 2 MB max)
+
+**Optional fields**
+
+- LinkedIn
+- GitHub
+- Portfolio
+
+**Behaviour:** the form validates in the browser, posts JSON as `text/plain` to the Google Apps Script web app, and on `{ok:true}` redirects to `/careers?applied=1`. The careers page then shows "Application received." and cleans the query string. On failure it shows the script's error message and re-enables the button.
+
+**Aside**
+
+- What happens next: You send the form and the PDF. A founder reads the application. We reply within one working day.
+- The terms: unpaid, remote, 2nd or 3rd year, not incorporated.
 
 ---
 

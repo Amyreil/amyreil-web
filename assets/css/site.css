@@ -1848,7 +1848,7 @@ button {
   display: block;
   font-size: 0.8125rem;
   font-weight: 500;
-  color: rgba(255, 255, 255, 0.42);
+  color: rgba(255, 255, 255, 0.52);
   margin-bottom: 12px;
 }
 .footer-nav {
@@ -2093,6 +2093,250 @@ button {
 }
 .form-success .btn {
   margin-top: 20px;
+}
+
+/* Careers: role list and application form */
+.apply-confirm {
+  display: block;
+  max-width: 62ch;
+  margin-bottom: 26px;
+  padding: 13px 18px;
+  border-radius: 12px;
+  background: var(--blue-soft);
+  color: var(--ink);
+  font-size: 0.9375rem;
+  line-height: 1.5;
+}
+.apply-confirm[hidden] {
+  display: none;
+}
+.apply-confirm b {
+  font-weight: 600;
+}
+.role-list {
+  list-style: none;
+  margin-top: clamp(32px, 4vw, 48px);
+  border-top: 1px solid rgba(7, 16, 25, 0.16);
+}
+.role-row {
+  display: grid;
+  grid-template-columns: minmax(0, 1.5fr) minmax(0, 1.1fr) auto;
+  align-items: center;
+  gap: 20px clamp(24px, 4vw, 56px);
+  padding: clamp(24px, 3vw, 34px) 0;
+  border-bottom: 1px solid rgba(7, 16, 25, 0.16);
+}
+.role-row-main h3 {
+  font-size: clamp(1.25rem, 2vw, 1.5rem);
+  font-weight: 500;
+  letter-spacing: -0.025em;
+  line-height: 1.2;
+}
+.role-row-main h3 a:hover {
+  color: var(--blue);
+}
+.role-row-main p {
+  margin-top: 6px;
+  font-size: 0.9375rem;
+  line-height: 1.55;
+  color: var(--muted-light);
+  max-width: 44ch;
+}
+.role-row-meta {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 14px;
+  margin: 0;
+}
+.role-row-meta dt {
+  font-size: 0.75rem;
+  color: var(--muted-light);
+}
+.role-row-meta dd {
+  margin: 3px 0 0;
+  font-size: 0.875rem;
+  line-height: 1.4;
+  color: var(--ink);
+}
+.role-row-btn {
+  height: 44px;
+  padding: 0 22px;
+  font-size: 0.875rem;
+}
+.apply-layout {
+  display: grid;
+  grid-template-columns: minmax(0, 8fr) minmax(0, 4fr);
+  gap: clamp(32px, 5vw, 72px);
+  align-items: start;
+}
+.apply-form {
+  background: #fff;
+  border: 1px solid rgba(7, 16, 25, 0.12);
+  border-radius: 22px;
+  padding: clamp(24px, 3.4vw, 44px);
+}
+.apply-form-head h2 {
+  font-size: clamp(1.5rem, 2.4vw, 1.875rem);
+  font-weight: 500;
+  line-height: 1.1;
+  letter-spacing: -0.03em;
+}
+.apply-form-head p {
+  margin-top: 8px;
+  font-size: 0.9375rem;
+  line-height: 1.55;
+  color: var(--muted-light);
+  max-width: 52ch;
+}
+.form-section {
+  border: 0;
+  margin: clamp(30px, 4vw, 42px) 0 0;
+  padding: clamp(26px, 3.2vw, 34px) 0 0;
+  border-top: 1px solid rgba(7, 16, 25, 0.1);
+}
+.form-section-title {
+  padding: 0;
+  font-size: 1.0625rem;
+  font-weight: 600;
+  letter-spacing: -0.015em;
+  color: var(--ink);
+}
+.form-optional {
+  margin-left: 6px;
+  font-size: 0.75rem;
+  font-weight: 400;
+  letter-spacing: 0;
+  color: var(--muted-light);
+}
+.apply-fields {
+  display: grid;
+  grid-template-columns: repeat(6, minmax(0, 1fr));
+  gap: 18px 20px;
+  margin-top: 20px;
+}
+.span-2 {
+  grid-column: span 2;
+}
+.span-3 {
+  grid-column: span 3;
+}
+.span-6 {
+  grid-column: span 6;
+}
+.req {
+  color: var(--blue);
+}
+.form-hint {
+  font-size: 0.75rem;
+  line-height: 1.5;
+  color: var(--muted-light);
+}
+.form-hint.is-error {
+  color: #b42318;
+}
+.form-file {
+  padding: 9px 12px;
+}
+.form-file::file-selector-button {
+  margin-right: 12px;
+  padding: 7px 12px;
+  border: 0;
+  border-radius: 8px;
+  background: var(--blue-soft);
+  color: var(--ink);
+  font: inherit;
+  font-size: 0.875rem;
+  cursor: pointer;
+}
+.apply-submit {
+  display: grid;
+  justify-items: start;
+  gap: 14px;
+  margin-top: clamp(30px, 4vw, 40px);
+}
+.apply-aside {
+  display: grid;
+  gap: clamp(30px, 4vw, 44px);
+}
+.apply-aside-block {
+  border-top: 1px solid rgba(7, 16, 25, 0.16);
+  padding-top: 18px;
+}
+.apply-aside h2 {
+  font-size: 1.0625rem;
+  font-weight: 600;
+  letter-spacing: -0.015em;
+  margin-bottom: 14px;
+}
+.apply-steps {
+  list-style: none;
+  counter-reset: apply-step;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+.apply-steps li {
+  counter-increment: apply-step;
+  position: relative;
+  padding-left: 30px;
+  font-size: 0.9375rem;
+  line-height: 1.5;
+  color: var(--muted-light);
+}
+.apply-steps li::before {
+  content: counter(apply-step);
+  position: absolute;
+  left: 0;
+  top: 0.1em;
+  display: grid;
+  place-items: center;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background: var(--blue-soft);
+  color: var(--ink);
+  font-size: 0.6875rem;
+  font-weight: 600;
+}
+.apply-aside .note-list li {
+  max-width: 38ch;
+}
+@media (max-width: 900px) {
+  .apply-layout {
+    grid-template-columns: 1fr;
+  }
+  .apply-aside {
+    max-width: 560px;
+  }
+}
+@media (max-width: 780px) {
+  .role-row {
+    grid-template-columns: 1fr;
+    align-items: start;
+    gap: 18px;
+  }
+  .role-row-meta {
+    gap: 18px;
+  }
+  .role-row-btn {
+    justify-self: start;
+  }
+}
+@media (max-width: 640px) {
+  .apply-fields {
+    grid-template-columns: 1fr;
+  }
+  .span-2,
+  .span-3,
+  .span-6 {
+    grid-column: 1 / -1;
+  }
+  .role-row-meta {
+    grid-template-columns: 1fr 1fr;
+  }
+  .role-row-meta > div:last-child {
+    grid-column: 1 / -1;
+  }
 }
 
 /* Inner pages */

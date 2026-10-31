@@ -75,7 +75,8 @@
             <a href="/#capabilities">Services</a>
             <a href="/#work">Work</a>
             <a href="/#loop">Approach</a>
-            <a href="/about" aria-current="page">About</a>
+            <a href="/about">About</a>
+            <a href="/careers" aria-current="page">Careers</a>
             <a href="/#cta">Contact</a>
           </div>
           <button class="btn btn--nav open-modal" type="button">
@@ -130,7 +131,7 @@
             <a href="/#work" data-menu-link>Work</a>
             <a href="/#loop" data-menu-link>Approach</a>
             <a href="/about" data-menu-link>About</a>
-            $2<a href="/careers" data-menu-link>Careers</a>
+            <a href="/careers" data-menu-link>Careers</a>
             <a href="/#cta" data-menu-link>Contact</a>
           </nav>
           <button class="btn btn--lg open-modal" type="button">
@@ -145,6 +146,10 @@
       <main id="main">
         <header class="page-hero">
           <div class="shell">
+            <p class="apply-confirm" id="applyConfirm" role="status" hidden>
+              <b>Application received.</b> We read every one and reply within
+              one working day, whether the answer is a call or a no.
+            </p>
             <a class="back-link" href="/about"
               ><span aria-hidden="true">&larr;</span> About the studio</a
             >
@@ -161,17 +166,8 @@
                   apply.
                 </p>
                 <div class="page-actions">
-                  <button
-                    class="btn btn--lg open-modal"
-                    type="button"
-                    data-service="Internship application"
-                  >
-                    Apply for an internship
-                  </button>
-                  <a
-                    class="text-link text-link--ink"
-                    href="mailto:contact@amyreil.online?subject=Internship%20application"
-                    >contact@amyreil.online</a
+                  <a class="btn btn--lg" href="/careers/apply"
+                    >Apply for an internship</a
                   >
                 </div>
               </div>
@@ -218,52 +214,108 @@
                 </div>
               </div>
             </section>
-            <div class="vacancy-grid">
-              <article class="feature reveal">
-                <h3>Frontend Intern</h3>
-                <p>
-                  Builds the interfaces people actually touch, from this site to
-                  the AmyLearn portals.
-                </p>
-                <p class="feature-meta">Unpaid · Remote · 2nd or 3rd year</p>
-                <a class="text-link" href="/careers/frontend-intern"
-                  >See more <span aria-hidden="true">&rarr;</span></a
+            <ul class="role-list reveal">
+              <li class="role-row">
+                <div class="role-row-main">
+                  <h3>
+                    <a href="/careers/frontend-intern">Frontend Intern</a>
+                  </h3>
+                  <p>
+                    Builds the interfaces people actually touch, from this site
+                    to the AmyLearn portals.
+                  </p>
+                </div>
+                <dl class="role-row-meta">
+                  <div>
+                    <dt>Type</dt>
+                    <dd>Internship, unpaid</dd>
+                  </div>
+                  <div>
+                    <dt>Where</dt>
+                    <dd>Remote</dd>
+                  </div>
+                  <div>
+                    <dt>Stack</dt>
+                    <dd>HTML, CSS, JS, GSAP, React</dd>
+                  </div>
+                </dl>
+                <a class="btn role-row-btn" href="/careers/frontend-intern"
+                  >See more</a
                 >
-              </article>
-              <article class="feature reveal">
-                <h3>Backend Intern</h3>
-                <p>
-                  Works on the services behind AmyLearn and the calculation
-                  pipeline behind Trikal Darshi.
-                </p>
-                <p class="feature-meta">Unpaid · Remote · 2nd or 3rd year</p>
-                <a class="text-link" href="/careers/backend-intern"
-                  >See more <span aria-hidden="true">&rarr;</span></a
+              </li>
+              <li class="role-row">
+                <div class="role-row-main">
+                  <h3>
+                    <a href="/careers/backend-intern">Backend Intern</a>
+                  </h3>
+                  <p>
+                    Works on the services behind AmyLearn and the calculation
+                    pipeline behind Trikal Darshi.
+                  </p>
+                </div>
+                <dl class="role-row-meta">
+                  <div>
+                    <dt>Type</dt>
+                    <dd>Internship, unpaid</dd>
+                  </div>
+                  <div>
+                    <dt>Where</dt>
+                    <dd>Remote</dd>
+                  </div>
+                  <div>
+                    <dt>Stack</dt>
+                    <dd>Node, Express, Prisma, JWT</dd>
+                  </div>
+                </dl>
+                <a class="btn role-row-btn" href="/careers/backend-intern"
+                  >See more</a
                 >
-              </article>
-              <article class="feature reveal">
-                <h3>DevOps Intern</h3>
-                <p>Keeps three products deployed, cached and reachable.</p>
-                <p class="feature-meta">Unpaid · Remote · 2nd or 3rd year</p>
-                <a class="text-link" href="/careers/devops-intern"
-                  >See more <span aria-hidden="true">&rarr;</span></a
+              </li>
+              <li class="role-row">
+                <div class="role-row-main">
+                  <h3>
+                    <a href="/careers/devops-intern">DevOps Intern</a>
+                  </h3>
+                  <p>Keeps three products deployed, cached and reachable.</p>
+                </div>
+                <dl class="role-row-meta">
+                  <div>
+                    <dt>Type</dt>
+                    <dd>Internship, unpaid</dd>
+                  </div>
+                  <div>
+                    <dt>Where</dt>
+                    <dd>Remote</dd>
+                  </div>
+                  <div>
+                    <dt>Stack</dt>
+                    <dd>GitHub, Vercel, Cloudflare</dd>
+                  </div>
+                </dl>
+                <a class="btn role-row-btn" href="/careers/devops-intern"
+                  >See more</a
                 >
-              </article>
-            </div>
+              </li>
+            </ul>
 
             <section class="detail-section">
               <div class="detail-grid">
                 <h2 class="split">How to apply</h2>
                 <div class="detail-copy">
                   <p>
-                    Write to contact@amyreil.online with the role in the subject
-                    line, a link to your GitHub or portfolio, and two lines on
-                    which parts of the stack you have already used. The form on
-                    this site reaches the same inbox.
+                    Pick a role, fill in one form and attach your resume as a
+                    PDF. It takes about five minutes, and you can add your
+                    LinkedIn, GitHub or portfolio if you have them.
                   </p>
                   <p>
                     A founder reads every application and replies within one
                     working day, whether the answer is a call or a no.
+                  </p>
+                  <p>
+                    <a class="text-link text-link--ink" href="/careers/apply"
+                      >Start an application
+                      <span aria-hidden="true">&rarr;</span></a
+                    >
                   </p>
                 </div>
               </div>
@@ -364,7 +416,7 @@
               <a href="/#work">Work</a>
               <a href="/#loop">Approach</a>
               <a href="/about">About</a>
-              $2<a href="/careers">Careers</a>
+              <a href="/careers">Careers</a>
               <a href="/#cta">Contact</a>
             </nav>
             <nav class="footer-nav" aria-label="Products">
