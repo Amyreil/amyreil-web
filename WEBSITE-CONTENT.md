@@ -163,7 +163,7 @@ Mockup label: hotelease v2.2 / front-desk
 
 ### Studio teaser
 
-**Headline:** Six people, one remote-first studio.
+**Headline:** Seven people, one remote-first studio.
 **Lead:** Independent, early stage and direct. Meet the team behind Trikal Darshi, HotelEase and AmyLearn.
 CTA: Meet the studio
 
@@ -176,15 +176,15 @@ Email: contact@amyreil.online
 
 ---
 
-## About — `about.html` (`/about.html`)
+## About — `about.html` (`/about`)
 
 **Meta title:** About — Amyreil Technologies
-**Meta description:** Amyreil Technologies is an independent, remote-first agency in India. Meet the six founders and the principles behind Trikal Darshi, HotelEase and AmyLearn.
+**Meta description:** Amyreil Technologies is an independent, remote-first agency in India. Meet the seven founders and the principles behind Trikal Darshi, HotelEase and AmyLearn.
 
 ### Hero
 
 **Headline:** An independent studio.
-**Lead:** Amyreil Technologies is an independent, remote-first agency in India. We build original SaaS products and deliver technology services to businesses and individuals, with direct access to the six founders.
+**Lead:** Amyreil Technologies is an independent, remote-first agency in India. We build original SaaS products and deliver technology services to businesses and individuals, with direct access to the seven founders.
 
 **At a glance**
 
@@ -192,7 +192,7 @@ Email: contact@amyreil.online
 | ------ | ---------------------------- |
 | Model  | Independent agency           |
 | Stage  | Founding stage               |
-| Team   | Six founders, one studio     |
+| Team   | Seven founders, one studio   |
 | Base   | India · no walk-in office    |
 | Builds | Own products and client work |
 
@@ -230,19 +230,22 @@ We do not build a product unless we can explain in one sentence why it should ex
 | Honest updates       | A written progress note every week, and risks raised when we see them, not at the deadline.           |
 | No overpromising     | We say what we can deliver and when, and we say no when something does not fit.                       |
 
-### Six people, one studio.
+### Seven people, one studio.
 
-**Headline:** Six people, one studio.
+**Headline:** Seven people, one studio.
 **Lead:** Founders across India, building remotely and working directly with the people who will use what we make.
 
-| Initials | Name              | Role                                                                                                      |
-| -------- | ----------------- | --------------------------------------------------------------------------------------------------------- |
-| BH       | Bikram Hawladar   | Chief Executive Officer · Final year CSE, IIIT Dharwad                                                    |
-| SD       | Sourasanto Datta  | Chief Technology Officer · Final year CSE (AI & ML), IEM Kolkata                                          |
-| SR       | Soumajit Roy      | Chief Financial Officer · Pre-final year CSE, Jain University, Bengaluru                                  |
-| TM       | Tanisha Mondol    | Chief Operating Officer · Pre-final year BSc (Psychology and Forensic Science), Amity University, Barasat |
-| DR       | Dibyaroop Ray     | Chief Marketing Officer · Final year BBA, Techno India, New Town                                          |
-| SD       | Shuvankar Debnath | Chief Product Officer · Final year EEE, IEM Kolkata                                                       |
+| Initials | Name              | Role                     | Study                                                                | Photo                          |
+| -------- | ----------------- | ------------------------ | -------------------------------------------------------------------- | ------------------------------ |
+| BH       | Bikram Hawladar   | Chief Executive Officer  | Final year CSE, IIIT Dharwad                                         | assets/founders/bikram.webp    |
+| SD       | Sourasanta Dutta  | Chief Technology Officer | B.Tech CSE (AI & ML), IEM Newtown, Kolkata                           | pending                        |
+| SR       | Soumajit Roy      | Chief Financial Officer  | Pre-final year CSE, Jain University, Bengaluru                       | assets/founders/soumajit.webp  |
+| TK       | Tanisha Kundu     | Chief Operating Officer  | 3rd year B.Sc (Hons) Forensic Science, Adamas University, Barasat    | pending                        |
+| AD       | Arnab Datta       | Chief Security Officer   | B.Tech CSE (Cyber Security), SRM Institute of Science and Technology | pending                        |
+| DR       | Dibyaroop Ray     | Chief Marketing Officer  | BBA (Hons) Marketing, Techno Main, Salt Lake                         | assets/founders/dibyaroop.webp |
+| SD       | Shuvankar Debnath | Chief Product Officer    | B.Tech EE, IEM Kolkata                                               | assets/founders/shuvankar.webp |
+
+Each founder card is a 4:5 portrait tile with the photo, the name, the role in blue and the study line beneath. Founders without a photo show their initials in the same tile. Original photos are dropped in the project root as `<Name>-photo.png`, converted to 640×800 WebP in `assets/founders/`, and the root originals stay out of git and out of the deployment.
 
 ### Work with the studio.
 
@@ -252,7 +255,7 @@ CTA: Start a conversation
 
 ---
 
-## Trikal Darshi — `trikal-darshi.html` (`/trikal-darshi.html`)
+## Trikal Darshi — `trikal-darshi.html` (`/trikal-darshi`)
 
 **Meta title:** Trikal Darshi — Vedic chart readings | Amyreil
 **Meta description:** Trikal Darshi casts a Vedic birth chart with the Swiss Ephemeris and writes an eleven-chapter reading with dasha timing. Live on web and Android.
@@ -315,7 +318,7 @@ CTA: Visit trikaldarshi.online
 
 ---
 
-## AmyLearn — `amylearn.html` (`/amylearn.html`)
+## AmyLearn — `amylearn.html` (`/amylearn`)
 
 **Meta title:** AmyLearn — Academic platform for colleges | Amyreil
 **Meta description:** AmyLearn is a multi-tenant academic platform for attendance, examinations, learning, library and fee records. In beta, with a live demo on request.
@@ -382,7 +385,7 @@ CTA: Request a live demo
 
 ---
 
-## HotelEase — `hotelease.html` (`/hotelease.html`)
+## HotelEase — `hotelease.html` (`/hotelease`)
 
 **Meta title:** HotelEase — Offline hotel management for Windows | Amyreil
 **Meta description:** HotelEase v2.2 is a Windows front-desk app for small hotels: room board, check-in, GST invoices and encrypted local data. Works without internet.
@@ -445,7 +448,7 @@ CTA: Ask about HotelEase
 
 ---
 
-## Privacy Policy — `privacy.html` (`/privacy.html`)
+## Privacy Policy — `privacy.html` (`/privacy`)
 
 **Meta title:** Privacy Policy — Amyreil Technologies
 **Meta description:** How Amyreil Technologies handles the information you share when you contact us or use this website.
@@ -505,7 +508,7 @@ Amyreil Technologies is an independent studio operating from India. It is not a 
 
 ---
 
-## Terms of Service — `terms.html` (`/terms.html`)
+## Terms of Service — `terms.html` (`/terms`)
 
 **Meta title:** Terms of Service — Amyreil Technologies
 **Meta description:** The terms that apply to using the Amyreil Technologies website and working with us.
@@ -567,7 +570,7 @@ For formal notices or questions about these terms, write to contact@amyreil.onli
 
 ---
 
-## 404 — `404.html` (`/404.html`)
+## 404 — `404.html` (`/404`, served on any unknown path)
 
 **Meta title:** Page not found — Amyreil Technologies
 **Meta description:** The page you were looking for does not exist. Head back to Amyreil Technologies.

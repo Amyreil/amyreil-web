@@ -6,3 +6,6 @@ Thumbs.db
 
 # Internal content notes; keep them out of the public repo.
 CONTENT-ASSUMPTIONS.md
+
+# Founder photo originals; the site uses assets/founders/*.webp
+/*-photo.png
